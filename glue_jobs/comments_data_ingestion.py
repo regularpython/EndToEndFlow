@@ -13,7 +13,7 @@ df = pd.DataFrame(data)
 # Convert DataFrame to CSV format
 csv_buffer = StringIO()
 df.to_csv(csv_buffer, index=False)
-
+print("Hi")
 # AWS S3 Details
 bucket_name = "batch-may-15-2026"
 file_name = "landing_zone/posts_data.csv"
